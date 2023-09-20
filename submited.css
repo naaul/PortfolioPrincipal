@@ -1,0 +1,23 @@
+body {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 auto;
+    background-image: url(./assets/wallpaper.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+h1{
+    color: white;
+    font-size: 5rem;
+}
+
+span {
+    color: #700B97;
+}

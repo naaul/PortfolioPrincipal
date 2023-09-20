@@ -1,0 +1,292 @@
+@media screen and (max-width:1200px) {
+
+    body{
+        align-items: center;
+    }
+
+    /*Header*/
+    header {
+        width: 95%;
+    }
+
+    #header > div {
+        width: fit-content;
+        height: fit-content;
+    }
+
+    #logo {
+        height: 40px !important;
+        margin-top: 0 !important;
+    }
+
+    #itens {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        gap: 3vw;
+        padding-left: 0;
+    }
+
+    #itens > a > li {
+        font-size: .8rem !important;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    #itens > a > li > button {
+        background: transparent;
+        color: #700B97;
+        border: 2px solid #700B97;
+        border-radius: 31.5px;
+        font-size: .8rem !important;
+        padding: 12px !important;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+
+    /*Main*/
+
+    #main {
+        display: flex;
+        justify-content: space-between;
+        align-items: start !important;
+        flex-direction: column;
+        max-width: 100% !important;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #lado-esquerdo > a > button {
+        display: none;
+    }
+
+    #lado-esquerdo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 2vh;
+    }
+
+    h1 {
+        font-size: 2rem !important;
+        line-height: 4.5vh;
+        color: #8E05C2;
+        margin-bottom: 0;
+        margin-top: 20px;
+        width: 100% !important;
+    }
+
+    #lado-esquerdo > a{
+        width: 100% !important;
+    }
+
+    #lado-esquerdo > h2 {
+        color: #700B97;
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    #lado-direito {
+        align-self: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    #main-banner{
+        width: 350px;
+        align-self: center;
+        margin-bottom: 40px;
+    }
+
+
+    /*Sobre*/
+
+    #section-sobre {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #sobre-mim{
+        background-color: #6f0b9780;
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 40px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+    #sobre-mim > p {
+        color: white;
+        width: 60%;
+        margin-bottom: 40px;
+        margin-top: 0;
+    }
+
+    /*Habilidade*/
+
+    #habilidades {
+        margin-bottom: 15vh;
+    }
+
+    #habilidades > h1 {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    #skill-card {
+        background-color: #6f0b9780;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 95%;
+        border-radius: 40px;
+        color: #5d107b;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+    #skill-card > p {
+        display: none;
+        width: 80%;
+        margin-top: 0;
+    }
+
+    /*Projetos*/
+
+    #section-projetos{
+        display: flex;
+        justify-content: center;
+    }
+
+    #projetos {
+        width: 95%;
+    }
+
+    #projetos > h1 {
+        text-align: center;
+    }
+
+    #section {
+        display: flex;
+        align-items: center;
+        gap: 1.3vw;
+    }
+    
+    #section > button {
+        background-color: transparent;
+        border: 2px solid #700B97;
+        color: #700B97;
+        border-radius: 22.5px;
+        padding: 6px;
+        font-size: .7rem;
+        cursor: pointer;
+    }
+
+    .painel {
+        display: none;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 2vw;
+    }
+
+    .container {
+        position: relative;
+        width: 45%;
+    }
+
+    .projetos-img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        vertical-align: middle;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
+        padding-bottom: 3px;
+    }
+
+    .content > h1 {
+        text-align: center;
+        font-weight: 600;
+        font-size: 1rem !important;
+        line-height: 1.8vh;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        background: linear-gradient(to bottom, #00000005 , #000000f7);
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+        width: 100% !important;
+        padding-bottom: 10px;
+    }
+
+    .content {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .links-div > a > h3 { 
+        font-size: .7rem; 
+        margin: 0;
+    }
+
+    .links-div > a > svg {
+        height: 20px;
+    }
+
+    /*Contatos*/
+
+    #contato {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 13vh;
+        align-items: center;
+    }
+
+    #banner2 {
+        height: 300px;
+        margin-bottom: 3vh;
+    }
+
+    #contato-div {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        width: 84%;
+        gap: 3vh;
+        background-color: #6f0b9780;
+        border-radius: 40px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+    input, textarea {
+        border: none;
+        padding: 20px;
+        border-radius: 30px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        width: 50%;
+    }
+
+    textarea{
+        width: 100%
+    }
+
+    #submit {
+        background-color: rgb(62,6,95);
+        color: rgb(255,226,255);
+        font-size: .9rem;
+        cursor: pointer;
+        width: 100%;
+    }
+    
+}
+

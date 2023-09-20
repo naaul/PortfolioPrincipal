@@ -1,0 +1,448 @@
+body{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 auto;
+    background-image: url(./assets/wallpaper.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    
+    gap: 5vh;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+/*Header*/
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    height: 70px;
+    margin-top: 10px;
+}
+
+#itens {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 3.2vw;
+}
+
+#itens > a {
+    text-decoration: none;
+}
+
+#itens > a > li {
+    font-size: 1rem;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#itens > a > li:hover {
+    color: #700B97;
+    transition: .3s;
+}
+
+#itens > a > li > button {
+    background: transparent;
+    color: #700B97;
+    border: 2px solid #700B97;
+    border-radius: 31.5px;
+    font-size: 1rem;
+    padding: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#itens > a > li > button:hover {
+    background-color: #700B97;
+    color: white;
+    transition: .3s;
+}
+
+/*Main*/
+
+#main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#lado-esquerdo {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+#lado-esquerdo > h2 {
+    color: #700B97;
+    margin-top: 5px;
+}
+
+#lado-esquerdo > a > button {
+    margin-top: 5vh;
+    width: 24vw;
+    font-size: 1.2rem;
+    line-height: 2vh;
+    border: 2px solid #700B97;
+    color: #700B97;
+    border-radius: 28.29px;
+    background-color: transparent;
+    padding: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#lado-esquerdo > a > button:hover {
+    background-color: #700B97;
+    color: rgb(131,116,201);
+    
+}
+
+#lado-esquerdo > a{
+    width: fit-content;
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 7vh;
+    color: #8E05C2;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+#span-text{
+    color: white;
+}
+
+#span-portifolio{
+    color: #8E05C2;
+}
+
+#main-banner{
+    width: 620px;
+}
+
+/*Sobre*/
+#sobre-mim{
+    background-color: #6f0b9780;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#sobre-mim > h2 {
+    margin-top: 40px;
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+#sobre-mim > p {
+    color: white;
+    width: 50%;
+    margin-bottom: 40px;
+    margin-top: 0;
+}
+
+#my-img {
+    width: 115px;
+    height: 115px;
+    border: 5px solid #8E05C2;
+    border-radius: 62.5px;
+    margin-top: 0;
+    margin: 20px;
+}
+
+
+
+/*Habilidades*/
+
+#habilidades {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4vh;
+    margin-top: 18vh;
+    margin-bottom: 18vh;
+    
+}
+
+#habilidades-div {
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+#habilidades > h1 {
+    margin-top: 0;
+}
+
+#habilidades-div > a > img {
+    height: 90px;
+    width: 90px;
+    border: 3px solid #700B97;
+    background-color: rgb(23,52,89);
+    border-radius: 48px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    cursor: auto;
+}
+
+
+#habilidades-div > a > img:hover {
+    height: 100px;
+    width: 100px;
+    border-radius: 50.5px;
+    margin-bottom: -10px;
+}
+
+#skill-card {
+    background-color: #6f0b9780;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    border-radius: 40px;
+    color: #5d107b;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#skill-card > p {
+    display: none;
+}
+
+/*Projetos*/
+
+#projetos {
+    background-color: #6f0b9780;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3vh;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#projetos > h1 {
+    margin-top: 40px;
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+.projetos-img {
+    height: 160px;
+    border-radius: 10px;
+    vertical-align: middle;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+
+.container {
+    position: relative;
+}
+
+.content {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content > h1 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: linear-gradient(to bottom, #00000005 , #000000f7);
+    display: flex;
+    flex-direction: column;
+}
+
+.painel {
+    display: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    
+}
+
+#section {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    
+}
+
+#section > button {
+    background-color: transparent;
+    border: 2px solid #700B97;
+    color: #700B97;
+    border-radius: 22.5px;
+    padding: 10px;
+    font-size: .9rem;
+    cursor: pointer;
+}
+
+.links {
+    display: none;
+    justify-content: space-around;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: linear-gradient(to bottom, #00000005, #000000f7);
+}
+
+.links-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #700B97;
+    margin-bottom: 10px;
+}
+
+.links-div > a > h3 { 
+    font-size: 1rem; 
+    margin: 0;
+}
+
+.svg-link {
+    height: 30px;
+    width: 30px;
+    margin-top: 0;
+}
+
+.a-link{
+    display: flex;
+    text-decoration: none;
+    color: #700B97;
+    align-items: center;
+}
+
+/*Contatos*/
+
+#contato {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 13vh;
+    align-items: center;
+    
+}
+
+#banner2 {
+    height: 650px;
+}
+
+#contato-div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5vh;
+    background-color: #6f0b9780;
+    padding: 30px;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#contato-div > h1 {
+    font-size: 5rem;
+    color: rgb(255,226,255);
+}
+
+#contato-svg {
+    display: flex;
+    width: 50%;
+    justify-content: start;
+    align-items: center;
+}
+
+#contato-svg > a > svg {
+    border-radius: 15px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+#name-div {
+    display: flex;
+    gap: 1vw;
+}
+
+input, textarea {
+    border: none;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#submit {
+    background-color: rgb(62,6,95);
+    color: rgb(255,226,255);
+    font-size: .9rem;
+    cursor: pointer;
+}
+
+#email {
+    min-height: 13vh;
+}
+
+
+/*footer*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: rgb(62,6,95);
+}
+
+footer > h3 {
+    font-size: 1rem;
+    text-align: center;
+}
