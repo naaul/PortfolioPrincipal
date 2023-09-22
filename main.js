@@ -12,7 +12,7 @@ const skills = [
     {
         id: "javascript",
         name: "JavaScript",
-        note: "Back-End com node.js e Fron-End com React."
+        note: "Back-End com node.js e Front-End com React."
     },
     {
         id: "html",
